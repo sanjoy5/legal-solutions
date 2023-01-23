@@ -1,0 +1,56 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+/* Global CSS  */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background: #ffffff;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-1 {
+    background: #B68C5A;
+}
+
+.btn-1:hover {
+    background: #b38043;
+}
+
+/* Navbar Section Start  */
+
+.navbar {
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    max-width: 158px;
+    width: 100%;
+}
+
+/* Navbar Section End  */
