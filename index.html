@@ -54,7 +54,45 @@
 
                     </ul>
 
-                    <button class="btn btn-1 btn-lg text-white ms-auto" type="submit">Free Consultation</button>
+                    <button class="btn btn-1 btn-lg text-white ms-auto" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Free Consultation</button>
+
+                    <!-- Modal  -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">TAKE A FREE LEGAL ADVICE</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="my-4">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="number" class="form-control" placeholder="Your Phone Number">
+                                        </div>
+                                        <div class="mb-4">
+                                            <textarea class="form-control" placeholder="Your Message"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-warning bg-main text-white">Send
+                                        Message</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -71,10 +109,9 @@
                         <p class="text-white px-lg-5">Here we provide a range of services
                             for you, Family and Divorce Lawyers, Conveyancing Solicitors, Commercial and Retail
                             Leasing.</p>
-                        <form class="d-flex justify-content-center mt-4 mx-auto" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search your services"
-                                aria-label="Search">
-                            <button class="btn btn-1 text-white" type="submit">Search</button>
+                        <form class="d-flex justify-content-center mt-4 mx-auto home-form">
+                            <input class="form-control me-2" type="text" placeholder="Search your services">
+                            <button class="btn btn-1 text-white px-md-5 fs-5">Search</button>
                         </form>
                     </div>
                 </div>
@@ -124,7 +161,7 @@
                     </div>
 
                 </div>
-                <div class="card text-center border-top-0 bg-secondary-subtle bg-none p-lg-5">
+                <div class="card text-center bg-secondary-subtle bg-none p-lg-5">
                     <img src="./images/criminal.png" class="card-img-top mt-5 mb-3 mx-auto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title fs-3 mb-4">Criminal Law</h5>
@@ -509,7 +546,7 @@
 
                     <div class="row row-cols-2 p-2">
 
-                        <div class="card text-center border-start-0 border-top-0 py-5 bg-secondary-subtle">
+                        <div class="card text-center border-start-0 border-top-0 py-4 py-md-5 bg-secondary-subtle">
                             <img src="./images/location.png" class="card-img-top mx-auto" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-4">Address</h5>
@@ -518,7 +555,7 @@
                             </div>
                         </div>
 
-                        <div class="card text-center border-end-0 border-top-0 py-5 bg-secondary-subtle">
+                        <div class="card text-center border-end-0 border-top-0 py-4 py-md-5 bg-secondary-subtle">
                             <img src="./images/call.png" class="card-img-top mx-auto" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-4">Call Us</h5>
@@ -527,7 +564,7 @@
                             </div>
                         </div>
 
-                        <div class="card text-center border-start-0 border-bottom-0 py-5 bg-secondary-subtle">
+                        <div class="card text-center border-start-0 border-bottom-0 py-4 py-md-5 bg-secondary-subtle">
                             <img src="./images/email.png" class="card-img-top mx-auto" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-4">Email Us</h5>
@@ -536,7 +573,7 @@
                             </div>
                         </div>
 
-                        <div class="card text-center border-end-0 border-bottom-0 py-5 bg-secondary-subtle">
+                        <div class="card text-center border-end-0 border-bottom-0 py-4 py-md-5 bg-secondary-subtle">
                             <img src="./images/time.png" class="card-img-top mx-auto" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-4">Time</h5>
@@ -549,7 +586,7 @@
                     </div>
 
                 </div>
-                <div class="col contact-form mt-2 mt-lg-0">
+                <div class="col contact-form mt-5 mt-lg-2">
 
                     <form action="">
                         <div class="mb-3">

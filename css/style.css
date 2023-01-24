@@ -38,8 +38,24 @@ a {
     background: #B68C5A;
 }
 
+.bg-main {
+    background: #B68C5A !important;
+}
+
+
+.btn-1:active {
+    background: #B68C5A !important;
+}
+
 .btn-1:hover {
     background: #b38043;
+}
+
+.btn-1:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+
 }
 
 .section-padding {
@@ -87,6 +103,15 @@ a {
     padding: 10px 20px;
     font-size: 16px;
     line-height: 26px;
+}
+
+.home-form .form-control {
+    height: 60px;
+}
+
+.home-form .form-control:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 /* Navbar Section End  */
@@ -232,9 +257,6 @@ a {
     transition: all .5s ease;
 }
 
-.contact-form {
-    padding-top: 60px;
-}
 
 .contact-form .form-control:focus {
     box-shadow: none;
@@ -337,6 +359,18 @@ a {
 
     .contact-form {
         margin-top: 50px;
+    }
+
+    .form-control {
+        height: 50px !important;
+    }
+
+    .contact-form button {
+        height: 50px;
+    }
+
+    .subscribe .input-group-text {
+        height: 49px;
     }
 }
 
