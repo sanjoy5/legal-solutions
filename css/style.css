@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
     background: #ffffff;
     line-height: 1.5;
+    color: #414040;
 }
 
 * {
@@ -110,22 +111,6 @@ a {
     border-radius: 50%;
     line-height: 28px;
     font-size: 18px;
-}
-
-.bbot-1 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.175) !important;
-}
-
-.btop-1 {
-    border-top: 1px solid rgba(0, 0, 0, 0.175) !important;
-}
-
-.bleft-1 {
-    border-left: 1px solid rgba(0, 0, 0, 0.175) !important;
-}
-
-.bright-1 {
-    border-right: 1px solid rgba(0, 0, 0, 0.175) !important;
 }
 
 
@@ -238,6 +223,10 @@ a {
     transition: all .5s ease;
 }
 
+.contact-form {
+    padding-top: 60px;
+}
+
 .contact-form .form-control:focus {
     box-shadow: none;
     outline: none;
@@ -249,9 +238,41 @@ a {
     resize: none;
 }
 
+.contact-form button {
+    height: 66px;
+}
+
 /* Contact Section End  */
 
 
+/* Footer Section Start  */
+
+.footer {
+    background-color: #111111;
+}
+
+.subscribe .form-control {
+    border: 1px solid transparent;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.subscribe .input-group-text {
+    border: none;
+    outline: none;
+    height: 59px;
+}
+
+.subscribe .input-group-text i {
+    font-size: 24px;
+    padding: 0 6px;
+}
+
+.subscribe .form-control:focus {
+    box-shadow: none;
+}
+
+/* Footer Section End  */
 
 
 
@@ -324,4 +345,7 @@ a {
         font-size: 12px;
     }
 
+    .card {
+        border: 1px solid #f2f2f2 !important;
+    }
 }
