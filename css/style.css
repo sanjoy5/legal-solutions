@@ -221,6 +221,36 @@ a {
 /* FAQ section End  */
 
 
+/* Contact Section Start  */
+
+.contact-info img {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-form .form-control {
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 0 24px;
+    color: #414040;
+    background-color: #F8F9FA;
+    transition: all .5s ease;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-form textarea.form-control {
+    height: 150px;
+    padding-top: 20px;
+    resize: none;
+}
+
+/* Contact Section End  */
+
 
 
 
@@ -271,5 +301,27 @@ a {
         top: 30px;
     }
 
+    .bg-none {
+        background-color: transparent !important;
+    }
+
+    .contact-form {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:500px) {
+    .contact-info img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact-info .card-title {
+        font-size: 16px;
+    }
+
+    .contact-info .card-text {
+        font-size: 12px;
+    }
 
 }
