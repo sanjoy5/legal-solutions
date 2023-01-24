@@ -157,6 +157,70 @@ a {
 
 
 
+/* FAQ section Start  */
+.accordion-item {
+    margin-bottom: 30px;
+}
+
+.accordion-button {
+    padding: 20px 50px 20px 30px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.accordion-button::before {
+    content: "\f067";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--black-400);
+}
+
+.accordion-button:not(.collapsed)::before {
+    content: "\f068";
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: none;
+}
+
+.accordion-button::after {
+    content: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #B68C5A;
+}
+
+.accordion-button:focus {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.accordion-body {
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #707070;
+}
+
+.accordion-button:not(.collapsed):focus {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* FAQ section End  */
+
+
 
 
 
