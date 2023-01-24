@@ -41,6 +41,18 @@ a {
     background: #b38043;
 }
 
+.section-padding {
+    padding: 65px 0;
+}
+
+.title-color {
+    color: #414040;
+}
+
+.desc-color {
+    color: #707070;
+}
+
 /* Navbar Section Start  */
 
 .navbar {
@@ -53,6 +65,9 @@ a {
     width: 100%;
 }
 
+.home {
+    margin-bottom: 70px;
+}
 
 .home .home-info {
     height: calc(100vh - 96px);
@@ -75,6 +90,70 @@ a {
 
 /* Navbar Section End  */
 
+
+/* Services Section Start  */
+
+.card {
+    border-radius: 0;
+}
+
+.card img {
+    width: 72px;
+    height: 72px;
+}
+
+.card i {
+    color: white;
+    background: #B68C5A;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.bbot-1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+
+.btop-1 {
+    border-top: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+
+.bleft-1 {
+    border-left: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+
+.bright-1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+
+
+/* Services Section End  */
+
+/* Clients Section Start  */
+
+.clients .carousel-item .carImg {
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.clients .carousel-caption {
+    top: 80px;
+}
+
+.clients .carousel-caption img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Clients Section End  */
 
 
 
@@ -104,5 +183,29 @@ a {
         box-shadow: none;
         border: 1px solid #B68C5A;
     }
+
+    .navbar-nav {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .navbar .btn-1 {
+        display: block;
+        margin: auto;
+    }
+
+    .services .card {
+        border: none;
+    }
+
+    .clients .carousel-caption img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .clients .carousel-caption {
+        top: 30px;
+    }
+
 
 }
